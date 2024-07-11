@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversário Reinaldo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">
+                A festa de aniversário do Reinaldo começa em: <br>
+                <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Rua Parcel - Bairro EBAC - São Paulo
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        18/01/2025 às 19:00h
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirmar Presença
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--salao">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">O salão de festa</h2>
+                <p class="event__details__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum sit dolor beatae quod, aliquid atque provident aspernatur ipsam qui sint, itaque iste optio adipisci laborum autem. Vero quas commodi minus!
+                </p>
+            </div>
+            <img class="event__image" src="./images/salao_aniversario.jpg" alt="Salão de festa">
+        </div>
+    </section>
+    <section class="event event--buffet event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Cardápio do buffet</h2>
+                <p class="event__details__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum sit dolor beatae quod, aliquid atque provident aspernatur ipsam qui sint, itaque iste optio adipisci laborum autem. Vero quas commodi minus!
+                </p>
+            </div>
+            <img class="event__image" src="./images/buffet_aniversario.jpg" alt="Buffet">
+        </div>
+    </section>
+    <section class="event event--show">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Show ao vivo</h2>
+                <p class="event__details__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum sit dolor beatae quod, aliquid atque provident aspernatur ipsam qui sint, itaque iste optio adipisci laborum autem. Vero quas commodi minus!
+                </p>
+            </div>
+            <img class="event__image" src="./images/show_aniversario.jpg" alt="Show">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
