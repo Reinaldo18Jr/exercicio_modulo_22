@@ -11,6 +11,10 @@
     font-family: Roboto, sans-serif;
     color: variables.$textColor;
     list-style: none;
+
+    @media (max-width: 640px) {
+        overflow-x: hidden;
+    }
 }
 
 .container {
